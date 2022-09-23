@@ -12,6 +12,12 @@ let hello = () => {
 // call arrow function set to variable
 // hello()
 
+// traditional anonymous function
 (function(){
    console.log("Hello!");
+})();
+
+// arrow function as an anonymous function
+(() => {
+    console.log("anonymous!");
 })();
